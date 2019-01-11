@@ -19,7 +19,7 @@ class TelegramBot:
 
 class BotTest(TelegramBot):
     def __init__(self):
-        self.token='604582951:AAGCfEB-GsjenkFBE6eR04sK_Pzmd2kWjCc'
+        self.token='mytoken'
         TelegramBot.__init__(self, "테스트",self.token)
         self.updater.stop()
 
