@@ -3,7 +3,7 @@ import sys
 import ChatModel
 
 #API 기본 설정
-test_token = '604582951:AAGCfEB-GsjenkFBE6eR04sK_Pzmd2kWjCc'
+test_token = 'mytoken'
 test = telegram.Bot(token = test_token)
 updates = test.getUpdates()
 for u in updates:
